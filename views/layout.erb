@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!--<script src="main.js"> -->
+
+  <title>Bakery!</title>
+</head>
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="/">Home </a></li>
+        <li class="nav-item"><a class="nav-link" href="/cookies">Cookies</a></li>
+        <li class="nav-item"><a class="nav-link" href="/cakes">Cakes</a></li>
+        <li class="nav-item"><a class="nav-link" href="/muffins">Muffins</a></li>
+        <li class="nav-item"><a class="nav-link" href="/catalog">More...</a></li>
+        </ul>
+      </nav>
+    <img src='headerimage.jpg' id="headerimg">
+    </header>
+    
+    <%= yield%>
+    <br/><br/><br/><br/><br/><br/>
+  </body>
+
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      177 Hester Street <br/>
+      New York, New York 10013<br/>
+      718-838-7594
+    </div>
+    <div class="col-sm-4">
+      Sunday-Thursday: 10 AM-10 PM <br/>
+      Friday & Saturday: 10 AM-11 PM
+    </div>
+    <div class="col-sm-4">
+    <form action="/catalogsent" method="POST">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" name="to" placeholder="name@example.com">
+      <input type="submit" class="btn btn-light"value="Go">
+  </div>
+
+</form>
+    </div>
+  </div>
+</div>
+
+</footer>
+</html>

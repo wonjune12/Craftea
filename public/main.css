@@ -1,0 +1,37 @@
+header{
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  font-size : 1.8rem;
+}
+
+#productimage {
+  width : 12em;
+  height : 12em;
+}
+
+#headerimg{
+  height : 14em;
+  margin-bottom: 100px;
+  margin-top : 100px;
+}
+
+#navbar{
+  background: linear-gradient(to bottom, rgb(146, 193, 235), #ffffff);
+
+}
+#homeimg{
+  height : 10em;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size : 1.5em;
+  background: linear-gradient(to top,#ffd1dc, #ffffff)
+}
+.btn-light {
+  background-color:#ffd1dc
+}
+
+.card{
+  border-radius : 2px;
+}

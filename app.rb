@@ -11,8 +11,6 @@ get "/" do
   
 end
 
-@allproducts = []
-
 get "/cookies" do
   @cookiearray = []
   @chocolatechip = Cookie.new("Chocolate chip cookie", "$8.99 per lb", "chocolatechipcookie.jpeg")

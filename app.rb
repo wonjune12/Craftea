@@ -1,8 +1,8 @@
 require "sinatra"
 require "sendgrid-ruby"
-require_relative "./cake"
-require_relative "./cookie"
-require_relative "./muffin"
+require_relative "cake"
+require_relative "cookie"
+require_relative "muffin"
 include SendGrid 
 
 

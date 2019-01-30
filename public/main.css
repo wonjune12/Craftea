@@ -5,9 +5,10 @@ header{
 }
 
 #productimage {
-
+  width : 18rem;
+  height : 16rem;
   object-fit: cover;
-  align-items: center;
+
 }
 
 #headerimg{
@@ -36,4 +37,6 @@ body{
 .card{
   border-radius : 6px;
   height : 24rem;
+  width : 18rem;
+  align-items: center;
 }
